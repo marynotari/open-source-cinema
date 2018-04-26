@@ -1,0 +1,94 @@
+GOAL: create and save elements (background, settings, characters, props) of a story in a database
+
+Interaction Assignment: 
+Don't use mouse or keyboard to design interaction with your scene
+Use raycaster to select objects--> use kinectron to sense 'closed' state for hands to pick things up
+Have an edit mode and a performance mode so you can act within the scene and not accidentally move stuff around
+
+SEARCH ASSIGNMENT (Last Week):
+Speculative Assumption: in the future, everyone will be telling many stories. we will need a system for navigating all those stories.
+    --> How would you cluster stories/ideas?
+    
+What's your manifesto is how to democratizing telling stories?
+
+EMBODIED COGNITION/EMBODIED CINEMA
+George Lakov, Berkeley-- so much of everything we say and think is through a physical metaphor
+
+Loading in three.js --> load manager.... there are different types of file loaders for importing different kinds of files
+
+PUPPETING--> attaching your joints to a character's joints
+
+FOR MY PROJECT:
+    --> think about how you can take best advantage of the API by being able to go anywhere
+    Mythologies, ontologies, how do they survive into the next era?
+    What are other areas of the world that tell stories?
+    How could people share their own memories or stories of a place?
+    
+VR Chat --> would people be interested in weirder more conceptual environments like mine? ask Mai!
+        --> could you put on "street theater" in an environment
+        
+
+INTERACTION
+
+You are Not a Brain In A Jar
+  You think with your body (unconscious)
+  How you actually understand the world, theory of mind, mirror neurons, simulation, empathy, twitching the theater
+  Even your most abstract thought leans on physical metaphors
+
+Brains in jars more likely to get in flame wars.  Sharing personal space induces empathy. Embodied Cognition reduces hate
+Post Symbolic Communication
+
+Interactions
+    Look Around
+    Navigate
+    Shoot People
+    Pick New Scene
+    Cut off: Editing VR in VR, Mutability not immersion is the true promise of VR
+    Gaze Eyes as output device  Not Having Your Face Blocked
+        Eyetracking technology will allow for better execution of the idea of The Cut / moving through space and time
+        WebGazer.js --> you can see what people are looking at and while they are looking you can change other things around them
+                    --> you can also tell what people are most interested in and (in real time) can then go into more detail in what they're looking at
+
+    Drawing  (Chalk Talk)
+        Being able to draw in the world
+    Recording
+    Point Clouding
+    Moving Objects
+        Moving objects around the scene
+    Puppeteering Internal Parts of Objects
+        Using 3D models, use a kinect ot move joints around
+            Models have internal rigging (skeleton) that have joints that can be attached to a kinectron joint
+    Rigid Bodies
+    Kinematics
+        Using points of reference, the computer can infer where the in between things are
+    Meta Cinematics Mode 
+        Move Cameras --> have a director mode and an actor mode
+        Move Lights
+        Start/Stop Recording
+        Recognizing Gestures for changing modes (Shawn, Patrick)
+    Put that there voice interface
+        Easiest way to design bodily interaction
+            Your words CONJURE things and spaces
+    Generating  Dreams,  AI Training rather than instructions.
+
+
+Tools
+    Javascript
+      Kinect Environment Convoluted requiring PC Server
+      Manual 3D
+      Simple Environment
+      Great For Social,Micro,Sequence
+      More Freeform (Essay)
+      Invites freedom from spatial coherence.
+    Unity/Unreal
+      Expansive Environment and Paradigm
+      Get a lot of 3D stuff for free
+      Connects to all Interesting Input Output devices
+      Less coding  (Multiple Choice)
+      More prejudiced towards coherent cartesian space.
+      
+      
+NEW IDEA:
+Create a tool for actors to insert themselves into stories -- create their own reels -- riff with each other across time and space
+Meatpuppet satire -- create a tool for directors to just puppet 3d models of actors in a scene
+Distopian Actor Future -- actors are no longer needed -- what is the answer to that question? Andy Serkis.

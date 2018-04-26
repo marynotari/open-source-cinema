@@ -1,0 +1,74 @@
+// Cinema.json 
+
+//NOTE: I'm having trouble deciding whether to phrase things through the 
+//people who fill the roles I'm categorizing or in the abstract concepts 
+//they embody (ie, Design vs. Designers)
+
+{
+	/*what the maker and audience bring to the understanding of the piece*/
+	"Cultural Context": [], 
+	"Medium": ["film", "TV," "theater", "street", "live", "recorded", "cartoon"],
+	"Style": ["naturalism", "abstract", "magical realism", "non-linear", "experimental"],
+	"Performers": {
+		/*push() after auditions*/
+		"Actors": [],
+		"Dancers": [],
+		"Voice Over Artists": [],
+		"Musicians": [],
+	}, 
+	/*push() according to where it is seen*/
+	"Audience": [], 
+	"Creative Team": {
+		"Writers": [],
+		"Directors": {
+			"Film": [],
+			"Theater": [],
+			"Dance": [],
+			"Music": []
+			},
+		"Cinematographers": [],
+		"Designers": {
+			"Lighting": [],
+			"Set": [],
+			"Costume": [],
+			"Make-up": [],
+			"Special Effects": [],
+			"Sound": []
+		},
+		"Editors": {
+			"Script": [],
+			"Film": [],
+			"Sound": []
+		},
+		"Dramaturgs": [],
+		"Animators": [],
+		"Storyboarders": [],
+		"Composers": [],
+		"Choreographers": []
+	},
+	"Distribution": {
+		"National Cinemas": [],
+		"Internation Cinemas": [],
+		"Touring": [],
+		"Online Streaming": [],
+		"On TV": [],
+		"On Demand": []
+	},
+	"Funding": {
+		"Corporate Sponsorships": [],
+		"Donations": [],
+		"Crowdsourcing": [],
+		"Public Funding": [],
+		"Tax Breaks": [],
+		"Investors": []
+	},
+	"Marketing": {
+		"Corporate"
+		"Grassroots"
+		"Viral"
+		"Print"
+		"Trailers"
+		"Reviews"
+	}
+
+}
