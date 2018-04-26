@@ -30,14 +30,14 @@ var ipAddress = "172.16.224.154";
 // var texture;
 
 //go to  http://docs.mlab.com/ sign up and get get your own api Key and make your own db and collection
-// var apiKey = "qAuY_iyWIThL7v_E94cZCZMoRxm3bwoN";
-// var db = "open-source-cinema";
-// var coll = "osc_setting_street_view";
+var apiKey = "5MvINM5k1SkaPwnYmtPC6Rpu4y4vJlBs";
+var db = "open-source-cinema";
+var coll = "osc_OBX";
 
-// REPLACE MARY'S CREDS WITH DANS -- THIS FIXES CAMERA ERRORS
-var apiKey = "COrdiz9qAt5OlZOLRyoKaaaG-60PkkxN";
-var db = "osc";
-var coll = "osc_setting_street_view";
+// // REPLACE MARY'S CREDS WITH DANS -- THIS FIXES CAMERA ERRORS
+// var apiKey = "COrdiz9qAt5OlZOLRyoKaaaG-60PkkxN";
+// var db = "osc";
+// var coll = "osc_setting_street_view";
 
 //[OLD]var cube3D;
 
