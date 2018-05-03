@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <style>
+      body {
+        background-color: #000000;
+        margin: 0px;
+        overflow: hidden;
+      }
+      /* #pano {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }*/
+      /* #container{
+        pointer-events: none; //send events to the div "pano" div below
+        position: absolute;
+        background-color: #000000;
+        top: 0;
+        z-index: 1;
+        position: absolute;
+        background-color: black;
+        background-color : transparent;
+        opacity: .5;
+      } */
+      #info {
+        position: absolute;
+        top: 0px; width: 100%;
+        color: #FF00FF;
+        padding: 5px;
+        font-family:Monospace;
+        font-size:13px;
+        font-weight: bold;
+        text-align:left;
+      }
+      a {
+        color: #ffffff;
+      }
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
+  <script src="https://itp.nyu.edu/kinectron/kinectron.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+  <!-- changed from text/css to text/html bc: https://stackoverflow.com/questions/48248832/stylesheet-not-loaded-because-of-mime-type -->
+  <!-- <link rel="stylesheet" type="text/html" href="style.css"> -->
+
+  <!-- moved jquery here per Lisa's suggestion from osc_setting_street_view_OBX_grab_lj project -->
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css"> -->
+
+  </head>
+
+  <body>
+    <div id="container"></div>
+    <!-- <div id="pano">ha ha</div> -->
+    <div id="info" >
+      Kinectron Address(hit return to connect):<input type="input" style="text-align:center;" value="IP Address" size="15" id="kinectron_address">
+      <br>
+      <br>
+      Name: <input type="text" style="text-align:center;" id="name">
+      <!-- Other People: <select id="other_people"></select> -->
+      <br>
+      <br>
+      <button type="button" id="previous">Previous Take</button>
+      <input type="input" maxlength="3" style="text-align:center;" size="3"id="takeNum">
+      <button type="button" id="next">Next Take</button>
+      <br>
+      <br>
+      <button type="button" id="previous_scene">Previous Scene</button>
+      <input type="input" maxlength="3" style="text-align:center;" size="50"id="scene" >
+      <button type="button" id="next_scene">Next Scene</button>
+      <br>
+      <br>
+      <button onclick="startRecord()" id="start_record">Start Record</button>
+      <button onclick="stopRecord()"  id="stop_record">Stop Record</button>
+    </div>
+
+  <!-- <canvas id="canvas1" style="visible: false"></canvas> -->
+  <script src="saving_stuff.js"></script>
+  <!-- <script src="record_skeleton.js"></script> -->
+  <script src="sketch.js"></script>
+  </body>
+</html>
